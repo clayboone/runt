@@ -1,6 +1,12 @@
+# Editors
+.vscode/*
+!.vscode/settings.json
+
+# Testing
 **/__pycache__
 **/.pytest_cache
 
-.vscode/*
-!.vscode/settings.json
-.env
+# Pypi Packaging
+build/
+dist/
+runt.egg-info/
